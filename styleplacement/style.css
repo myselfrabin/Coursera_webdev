@@ -1,0 +1,12 @@
+body{
+   
+    
+    background-image: url(https://imgs.search.brave.com/wfQaWvHLouUjwwJRIHY9PSSmsOwPdV69_qNMCnswPdU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzZXQuY29t/L3cvZnVsbC84LzIv/ZS8zNjkyMzQuanBn);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 130%;
+    color: blue;
+}
+footer{
+    text-align: center;
+}

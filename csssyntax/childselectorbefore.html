@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHILD SELECTOR BEFORE HTML</title>
+    <style>
+        /* any article element which is the direct child
+        of the section element i.e any article element
+        whose immediate parent is a section element*/
+     section > article{    /*yaha mero article direct child of section ho */
+        color: green;
+        font-size: 24px;
+       }
+       /* any h2 element which is the direct child of the section element 
+       i.e any h2 element whose immediate parent is a section element*/
+    section> h2{
+        color: blue;
+       }
+       /* all element with class highlight as well as class mainpoint*/
+       .mainpoint.highlight{
+        color: yellowgreen;
+       }
+    </style>
+</head>
+<body>
+    <h1>Child Selector</h1>
+   <section>
+    
+        <h2>Subheading 1</h2>
+        <div>
+  
+      <article>Article which is inside DIV, which is inside selector </article>
+ 
+</div>
+</section>
+<section>
+    <article>Article as a direct child of the section element.</article>
+</section>
+<h2>SUBHEADING 2</h2>
+</body>
+</html>

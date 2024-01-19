@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* yaha specificity ko rule ko aadhar ma first wala lay
+        jityo*/
+        header.navigation p{
+            color: blue;
+        }
+        p.blurb{
+            color: red; 
+        }
+        p{
+            color: aquamarine !important;
+            background-color: blue;
+            cursor:cell;
+        }
+     p:hover{
+        background-color: red;
+     }
+    </style>
+</head>
+<body>
+    <header class="navigation">
+        <p class="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rerum similique, assumenda reprehenderit saepe asperiores illo ipsam ipsum facilis a repellendus praesentium dolor suscipit quos laudantium in voluptate eos quidem?</p>
+    </header>
+</body>
+</html>
